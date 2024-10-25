@@ -16,6 +16,7 @@ function SeoYeonPage() {
                             <h2>ENTP</h2>
                             <h2>여자</h2>
                             <h2>csy_jane7</h2>
+                            <p>학원가야함</p>
                         </PersonalData>
                     </ContentsBox>
                 </Container>
