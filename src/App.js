@@ -12,6 +12,7 @@ function App() {
   return (
     <>
       <Wrapper>
+        <Header/>
         <Container>
           <Routes>
             <Route path="/" element={<MainPage />} />
