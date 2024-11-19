@@ -21,6 +21,7 @@ function App() {
             <Route path="/minseo" element={<MinSeoPage/>}/>
           </Routes>
         </Container>
+        <NavigationBar/>
       </Wrapper>
     </>
   );
