@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { TouchIcon } from "../../assets/icons";
+import UserInformation from "../../components/main/UserInformation";
 
 function MainPage() {
   return (
@@ -16,6 +16,9 @@ function MainPage() {
           </ImgBox>
         </Contents>
       </Wrapper>
+      <InformationBox>
+        <UserInformation />
+      </InformationBox>
     </>
   );
 }
@@ -57,4 +60,8 @@ const ImgBox = styled.div`
     border-radius: 20px;
     height: 300px;
   }
+`;
+
+const InformationBox = styled.div`
+  margin-bottom: 100px;
 `;
