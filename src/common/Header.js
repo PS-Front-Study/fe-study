@@ -9,7 +9,9 @@ function Header() {
   };
   return (
     <Wrapper>
-      <p onClick={handleOnclick}>풍생고</p>
+      <Container>
+        <p onClick={handleOnclick}>풍생고</p>
+      </Container>
     </Wrapper>
   );
 }
@@ -17,11 +19,13 @@ function Header() {
 export default Header;
 
 const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: ${({theme})=>theme.backgroundColors.page};
+
   z-index: 1000;
   @font-face {
     font-family: "RiaSans-ExtraBold";
@@ -29,6 +33,17 @@ const Wrapper = styled.div`
       format("woff2");
     font-weight: normal;
     font-style: normal;
+  }
+`;
+
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: ${({ theme }) => theme.backgroundColors.page};
+  width: ${({ theme }) => theme.tablet};
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    width: 100vw;
   }
   p {
     padding: 20px;
