@@ -21,6 +21,7 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
   width: 100%;
+  background: ${({theme})=>theme.backgroundColors.page};
   z-index: 1000;
   @font-face {
     font-family: "RiaSans-ExtraBold";
@@ -30,10 +31,11 @@ const Wrapper = styled.div`
     font-style: normal;
   }
   p {
+    padding: 20px;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: "RiaSans-ExtraBold";
     font-size: 50px;
 

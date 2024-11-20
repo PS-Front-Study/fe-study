@@ -36,7 +36,8 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background: ${({ theme }) => theme.backgroundColors.page};
+  background: ${({ theme }) => theme.colors.logoHover};
+
 `;
 
 const Container = styled.div`
@@ -46,6 +47,7 @@ const Container = styled.div`
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  background: ${({ theme }) => theme.backgroundColors.page};
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100vw;
   }
