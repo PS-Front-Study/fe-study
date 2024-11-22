@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-<<<<<<< HEAD
-import { DogIcon, SmileIcon } from "../assets/icons";
-
-=======
-import { CatIcon, SmileIcon } from "../assets/icons";
->>>>>>> main
+import { GiftBox } from "../assets/icons";
+import { DogIcon} from "../assets/icons";
+import { CatIcon} from "../assets/icons";
 
 function NavigationBar() {
   return (
@@ -27,7 +24,7 @@ function NavigationBar() {
 
           <StyledLink to={"/minseo"}>
             <IconBox>
-              <SmileIcon />
+              <GiftBox />
               <p>민서</p>
             </IconBox>
           </StyledLink>
