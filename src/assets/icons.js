@@ -37,3 +37,12 @@ export const SmileIcon = () => (
     </g>
   </svg>
 );
+
+export const DogIcon = () => (
+  <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.84 33.8653C15.8473 22.7602 24.9338 13.941 36.2747 17.4024C44.1883 19.8178 40.8685 24.3187 43.9437 27.2778C45.6787 28.6126 50.3893 26.821 51.6077 28.4875C52.6848 29.9614 51.9066 32.6504 51.6077 34.4155C50.4287 41.3755 42.4501 42.4 35.6904 42.4" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52 31.04C51.4429 29.9827 50.1715 28.9942 48.64 28.16" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.1587 28.9952C20.7565 31.1853 14.5557 46.1029 20.9752 47.3738C32.8973 49.0768 31.4664 35.5154 31.4664 27.04" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M37.44 26.88V27.68" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+);

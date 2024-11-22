@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { SmileIcon } from "../assets/icons";
+import { DogIcon, SmileIcon } from "../assets/icons";
+
 
 function NavigationBar() {
   return (
@@ -9,7 +10,7 @@ function NavigationBar() {
         <Container>
           <StyledLink to={"/seoyeon"}>
             <IconBox>
-              <SmileIcon />
+              <DogIcon />
               <p>서연</p>
             </IconBox>
           </StyledLink>
