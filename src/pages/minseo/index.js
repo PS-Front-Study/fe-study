@@ -14,11 +14,11 @@ function MinSeoPage() {
           </MyPhotoBox>
           <ContentsBox>
             <PersonalData>
-              <h1>이름</h1>
-              <h2>생년월일</h2>
-              <h2>MBTI</h2>
+              <h1>김민서</h1>
+              <h2>07.10.13</h2>
               <h2>풍생고</h2>
-              <h2>인스타 ID</h2>
+              <h2>남자</h2>
+              <h2>@K_mxnsxo</h2>
             </PersonalData>
           </ContentsBox>
         </Container>
@@ -36,6 +36,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   padding: 10px;
+  background: #3A5E87;
 `;
 
 const Container = styled.div`
