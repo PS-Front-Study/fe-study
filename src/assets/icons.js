@@ -59,3 +59,37 @@ export const GiftBox = () => (
     </defs>
   </svg>
 )
+
+export const DogIcon = () => (
+  <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.84 33.8653C15.8473 22.7602 24.9338 13.941 36.2747 17.4024C44.1883 19.8178 40.8685 24.3187 43.9437 27.2778C45.6787 28.6126 50.3893 26.821 51.6077 28.4875C52.6848 29.9614 51.9066 32.6504 51.6077 34.4155C50.4287 41.3755 42.4501 42.4 35.6904 42.4" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M52 31.04C51.4429 29.9827 50.1715 28.9942 48.64 28.16" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M21.1587 28.9952C20.7565 31.1853 14.5557 46.1029 20.9752 47.3738C32.8973 49.0768 31.4664 35.5154 31.4664 27.04" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M37.44 26.88V27.68" stroke="white" stroke-opacity="0.9" stroke-width="2.56" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+);
+export const CatIcon = () => (
+  <svg width="64px" height="64px" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+    <g id="SVGRepo_iconCarrier"> <path d="M104.613 165C62.4895 136.517 97.2059 92.081 125 137.46"
+      stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M259 133.798C279.706 100.527 328.781 104.891 298.253 150" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M161.153 159C160.362 154.1 162.845 149.364 164 145" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M194 165C194.409 156.616 194.948 148.211 196 140" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M228 159C228 154.661 228 150.329 228 146" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M153 223C160.473 220.915 168.386 220.023 176 219" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M225 219C232.895 217.426 240.281 217.931 248 219" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M188 256.005C221.5 238.742 217.338 264.602 191.479 260.565" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M201 267C199.054 288.306 181.973 290.175 167 283.734" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M200.041 267C198.864 295.299 223.581 291.006 237 277.407" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M111 243C96.3264 238.228 80.8117 237.965 66 236" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M116 267C99.8675 270.808 83.7433 273.752 68 279" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M293 233C304.501 229.96 315.688 225.62 327 222" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M297 261C308.857 259.497 322.138 260.027 333 260.429" stroke="#ffffff" stroke-opacity="0.9" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" /> </g>
+
+  </svg>
+);

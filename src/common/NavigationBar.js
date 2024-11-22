@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { GiftBox, SmileIcon } from "../assets/icons";
+import { GiftBox } from "../assets/icons";
+import { DogIcon} from "../assets/icons";
+import { CatIcon} from "../assets/icons";
 
 function NavigationBar() {
   return (
@@ -9,13 +11,13 @@ function NavigationBar() {
         <Container>
           <StyledLink to={"/seoyeon"}>
             <IconBox>
-              <SmileIcon />
+              <DogIcon />
               <p>서연</p>
             </IconBox>
           </StyledLink>
           <StyledLink to={"/seungah"}>
             <IconBox>
-              <SmileIcon />
+              <CatIcon/>
               <p>승아</p>
             </IconBox>
           </StyledLink>
