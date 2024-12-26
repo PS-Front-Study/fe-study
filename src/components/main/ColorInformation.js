@@ -2,36 +2,35 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 
-function UserInformation() {
+function ColorInformation() {
   const [data, setData] = useState([]);
+  
   async function fetchData() {
-    const response = await axios.get(" https://koreanjson.com/users");
-    setData(response.data);
+    const response = await axios.get("https://reqres.in/api/unknown");
+    console.log('response:::',response)
+    setData(response.data.data);
   }
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(data)
 
+  console.log('data:::',data)
   return (
     <>
-      {data.map((item) => (
         <Wrapper>
-          <Container>
-            <h2>{item.name}</h2>
-            <p>아이디: {item.username}</p>
-            <p>이메일: {item.email}</p>
-            <p>홈페이지: {item.website}</p>
+        {data.map((item) => (
+          <Container color={item.color}>
+            <h2>color: {item.name}</h2>
           </Container>
+            ))}
         </Wrapper>
-      ))}
 
 
     </>
   );
 }
 
-export default UserInformation;
+export default ColorInformation;
 
 const Wrapper = styled.div`
   display: flex;
@@ -39,6 +38,8 @@ const Wrapper = styled.div`
   align-items: center;
   padding: 10px;
   margin: 10px;
+  width: 100%;
+  overflow-x: auto; 
 `;
 
 const Container = styled.div`
@@ -46,6 +47,10 @@ const Container = styled.div`
   border-radius: 20px;
   width: 80%;
   margin: 0;
-  padding: 0 20px;
-
+  background-color: ${(props) => props.color};
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  flex-shrink: 0;
+  text-align: center;
 `;

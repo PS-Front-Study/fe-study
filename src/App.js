@@ -44,7 +44,7 @@ const Container = styled.div`
   margin: auto;
   width: ${({ theme }) => theme.tablet};
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: scroll; // 페이지 길어지면 스크롤함 
   -ms-overflow-style: none;
   scrollbar-width: none;
   background: ${({ theme }) => theme.backgroundColors.page};

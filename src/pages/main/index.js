@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import UserInformation from "../../components/main/UserInformation";
+import ColorInformation from "../../components/main/ColorInformation";
+import ListUser from "../../components/main/ListUsers";
 
 function MainPage() {
   return (
@@ -17,7 +18,8 @@ function MainPage() {
         </Contents>
       </Wrapper>
       <InformationBox>
-        <UserInformation />
+        <ColorInformation />
+        <ListUser/>
       </InformationBox>
     </>
   );
