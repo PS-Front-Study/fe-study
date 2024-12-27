@@ -7,16 +7,24 @@ function ColorInformation() {
   
   async function fetchData() {
     const response = await axios.get("https://reqres.in/api/unknown");
+<<<<<<< Updated upstream
 
     setData(response.data.data);
     console.log(response.data);
   
+=======
+    setData(response.data.data);
+    console.log(response.data)
+>>>>>>> Stashed changes
   }
   useEffect(() => {
     fetchData();
   }, []);
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   return (
     <>
         {/* <Wrapper>
