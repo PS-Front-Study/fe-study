@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import SeoyeonApi from "../../components/seoyeon/seoyeonApi";
 
 function SeoYeonPage() {
     return (
@@ -19,6 +20,7 @@ function SeoYeonPage() {
                             <p>학원가야함</p>
                         </PersonalData>
                     </ContentsBox>
+                    <SeoyeonApi/>
                 </Container>
             </Wrapper>
 
@@ -38,6 +40,9 @@ const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     padding: 10px;
+    overflow-y: scroll; // 페이지 길어지면 스크롤함 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 `
 
 const Container = styled.div`
