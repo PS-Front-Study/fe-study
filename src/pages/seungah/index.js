@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import SeungaApi from "../../components/main/seunga/SeungaApi";
 
 function SeungAhPage() {
     return (
@@ -19,6 +20,7 @@ function SeungAhPage() {
                             <h2>white.winah</h2>
                         </PersonalData>
                     </ContentsBox>
+                    <SeungaApi></SeungaApi>
                 </Container>
             </Wrapper>
         </>
@@ -29,6 +31,9 @@ function SeungAhPage() {
 export default SeungAhPage;
 
 const Wrapper = styled.div`
+ overflow-y: scroll; // 페이지 길어지면 스크롤함 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
     background: lightpink;
     width: 100%;
     height: 100%;
