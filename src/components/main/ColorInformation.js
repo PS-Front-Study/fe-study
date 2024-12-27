@@ -7,23 +7,25 @@ function ColorInformation() {
   
   async function fetchData() {
     const response = await axios.get("https://reqres.in/api/unknown");
-    console.log('response:::',response)
+
     setData(response.data.data);
+    console.log(response.data);
+  
   }
   useEffect(() => {
     fetchData();
   }, []);
 
-  console.log('data:::',data)
+
   return (
     <>
-        <Wrapper>
+        {/* <Wrapper>
         {data.map((item) => (
           <Container color={item.color}>
             <h2>color: {item.name}</h2>
           </Container>
             ))}
-        </Wrapper>
+        </Wrapper> */}
 
 
     </>

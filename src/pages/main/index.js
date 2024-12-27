@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import ColorInformation from "../../components/main/ColorInformation";
 import ListUser from "../../components/main/ListUsers";
+import SeungaApi from "../../components/main/seunga/SeungaApi";
 
 function MainPage() {
   return (
@@ -17,6 +18,7 @@ function MainPage() {
           </ImgBox>
         </Contents>
       </Wrapper>
+      <SeungaApi/>
       <InformationBox>
         <ColorInformation />
         <ListUser/>
